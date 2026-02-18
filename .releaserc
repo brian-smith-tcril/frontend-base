@@ -1,0 +1,16 @@
+{
+  "branches": [
+    "placeholder",
+    {
+      "name": "test-semantic-release",
+      "prerelease": "alpha",
+      "channel": "latest"
+    }
+  ],
+  "repositoryUrl": "git@github.com:brian-smith-tcril/frontend-base.git",
+  "tagFormat": "v${version}",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator"
+  ]
+}
